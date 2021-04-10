@@ -1,0 +1,78 @@
+body {
+		background-image: url('../pic/stu2/img/notebook.jpg');
+}
+
+h1.text_h{
+	ont-size: 5rem;
+    font-weight: 600;
+    color: rgb(15, 106, 167);
+    /* background:rgb(255, 169, 169); */
+    margin-bottom: 1.5rem;
+}	
+
+/* <p> */
+.texr_p {
+    font-weight:300;
+    font-size: 3rem;
+    /* background:rgb(255, 56, 56); */
+        
+}
+
+.text_a{
+  font-family: Cursive;
+  display: inline-block; 
+  border-radius: 4px;
+  background-color: #e07b39;
+  border: none;
+ color:rgb(255, 255, 255); 
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 400px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+} 
+
+.text_a span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+ 
+}
+.text_a:hover span {
+  padding-right: 25px;
+}
+
+.text_a:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/* LINKS */
+.container {
+    display: flex;
+    height: calc(100vh - 52px);
+}	
+/*remember to give @support for opera mini height 100%*/
+.imgcover {
+    background: linear-gradient(90deg, #FFFFFF 0%, #F0F1F5 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+.bannerimg {
+    height: 100%;
+}
+.bannercontent {
+    /* background: rgb(255, 187, 0); */
+    position: relative;
+    left: 7%;
+    bottom: 2%;
+    /* padding-left: 200px;
+    padding-bottom: 20px; */

@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="pic/common_pic/thebookslookfinal.png">
+        <link rel = "stylesheet"  href ="style css/sell.css">
+        <link rel = "stylesheet"  href ="style css/common.css">
+
+        <script src="js/sell.js" async></script>
+    </head>
+    <body>
+     
+     
+      <!-------------------------------------------------------------------------------------------Nav Bar------------------------------------------------------------------------------------------->
+        
+      <ul>
+        <a href="homepage.html"><img src="pic/common_pic/thebookslookfinal.png" alt="logo" class="logo"></a>
+          <li><a class="active" href="sell.html">SHOP NOW.</a></li>
+          <li><a href="sitemap.html">Site Map</a></li>
+		  <li><a href="quiz.html">Quiz</a></li>
+		  <li><a href="about.html">About Us</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="feedback.html">Feedback-Us</a></li>
+          <li>
+            <div class="dropdown">
+              <button class="dropbtn">Article</button>
+              <div class="dropdown-content">
+                <a href="article1.html">Article 1</a>
+                <a href="article2.html">Article 2</a>
+                <a href="article3.html">Article 3</a>
+                <a href="article4.html">Article 4</a>
+              </div>
+            </div>
+          </li>
+		  <li><a href="homepage.html">Home</a></li>
+        </ul>
+
+          
+
+      <!----------------------------------------------------------------------------------Add text/zooming buttons into image------------------------------------------------------------------------->
+
+        <div class="hero-image">
+          <div class="hero-text">
+
+            <h1>Read And Improve Your Knowledge !!</h1>
+            <p>The largest Online Book Store</p>
+
+            <div class="zoom_group">
+              <button class="reset font_size_change" aria-label="reset font size"><img src="pic/common_pic/reset.png" 
+              class="reset_icon" alt="reset font size"></button>
+              <button class="font_size_increase font_size_change" aria-label="increase font size" tabindex="1"><img src="pic/common_pic/zoom_in.png"
+              class="zoom_icon" alt="increase font size"></button>
+              <button class="font_size_decrease font_size_change" aria-label="reduce font size" tabindex="2"><img src="pic/common_pic/zoom_out.png"  
+              class="zoom_icon" alt="decrease font size"></button>
+            </div>
+
+          </div>
+        </div>
+
+<!-------------------------------------------------------------------------------------------Add small descryption about page----------------------------------------------------------------------------->
+
+
+          <div class="Container-items">
+
+               <p><h3> Reading allows you to experience multiple realities</h3>
+
+              We all have a uniquely valuable role in life. But many of us, even if satisfied with that role, often wonder what it would be like to live in a different place,
+              work at a different job, or even be a completely different person. For brief moments of time, books release us from the constraints of our own reality. They 
+              take us beyond our world and into someone else’s real or imaginary one. They satisfy the curiosity of the elusive “What if?”.</p>
+
+
+              <p><h3> Reading challenges your perspective.</h3>
+
+              When you experience life through the eyes of another, you encounter diverse angles on life’s most common situations. Talented authors will naturally
+              inspire empathy for their characters, and empathizing with viewpoints different from your own can feel uncomfortable. Extremely uncomfortable. While reading 
+              doesn’t mean that you’ll agree with different perspectives, it does offer you the opportunity to understand them.</p>
+
+
+              <p><h3>Reading helps you remember.</h3>
+
+              Reading isn’t only about discovering the new. It’s also a vehicle for reflection. Many bibliophiles can trace their love of reading back to a
+              cherished memory, such as being read to by a parent or discovering the first book they ever loved (Winnie the Pooh, Dr. Seuss or Enid Blyton, anyone?).
+              Re-reading those favorite books, or reading about familiar places, times and people helps us recall the details of our own lives. It reminds us who we are, where we
+              are and how we came here..</p>
+
+       
+              <!-----------------------------------------------------------------------Validation Form to get user details in column 1----------------------------------------------------------------->
+
+              <div class="col1">
+                  <div class="form_container">
+                        <div class="form_heading" style = "background-color: rgb(255, 255, 255);">
+                           <p class="p1Medium">Fill & Order</p>
+                        </div>
+
+                    <form id="order" onsubmit="return validation()" onreset="return revalidation()">
+
+                      <label for="firstname" class="order_lbl">Full Name <span class="req_star">*</span> </label>
+                      <input class="shop_form_txt required" id="fullname" name="fullname" type="text" placeholder="name - min 10 characters">
+
+                  
+                      <label for="email" class="order_lbl">Email<span class="req_star">*</span></label>
+                      <input class="shop_form_txt required" id="email" name="email" type="text" placeholder="example@domain.com">
+                  
+                  
+                  
+                      <label for="phone" class="order_lbl">Phone Number<span class="req_star">*</span></label>
+                      <input class="shop_form_txt required" id="phone" name="phone" type="tel" placeholder="0123456789">
+                  
+                  
+                  
+                      <label for="address" class="order_lbl">Address<span class="req_star">*</span></label>
+                      <textarea class="shop_form_txt required" id="address" name="address"></textarea>
+                 
+
+        
+                      <input type="submit" class="form_btn" id="submit"  value="Place Order">
+                      <input type="reset" class="form_btn form_reset">
+
+                    </form>
+
+                    <div id = "error_message"></div>
+
+                  </div>
+              </div>
+
+              <!--------------------------------------------------------------Column 2 Content------------------------------------------------------------------------------------------------------>
+    
+              <div class="col2" id="col2">
+
+                  <div class="col2-head">
+                      <h1>ADD YOUR FAVOURITE</h1>
+                  </div>
+        
+                  <div class="item">
+
+                      <div class="shopItem">
+                          <img class="product-img" src="pic/stu1/sell/book8.jpg" >
+                          <div class="product-info">
+                              <div class="product-text">
+                                <span class="shop-item-title"> <h1>Catching a Miricle</h1></span>
+                                <h2>Mark J Spinicelli</h2>
+                                <p>Catching A Miracle is an inspirational<br> novel about the will of the human<br> spirit to seek answers to the <br>unanswerable.</p>
+                              </div>
+                              <div class="product-price-btn">
+                                <p><span class="shop-item-price">$12.00</span></p>
+                                <button class="btn btn-primary shop-item-button"  type="button">buy now</button>
+                              </div>
+                          </div>
+                      </div>
+          
+           
+                      <div class="shopItem">
+                          <img class="product-img" src="pic/stu1/sell/book9.jpg" >
+                          <div class="product-info">
+                              <div class="product-text">
+                                <span class="shop-item-title"> <h1>Winning the Story Wars</h1></span>
+                                <h2>By Jonah Sachs</h2>
+                                <p>Winning the Story Wars: Why Those Who Tell - and Live - the Best Stories Will Rule the Future</p>
+                              </div>
+                              <div class="product-price-btn">
+                                <p><span class="shop-item-price">$14.50</span></p>
+                                <button class="btn btn-primary shop-item-button"  type="button">buy now</button>
+                              </div>
+                          </div>
+                      </div>
+        
+
+        
+                      <div class="shopItem">
+                          <img class="product-img" src="pic/stu1/sell/book10.jpg" >
+                          <div class="product-info">
+                            <div class="product-text">
+                              <span class="shop-item-title"> <h1>Best Family Ever.</h1></span>
+                              <h2>by Karen Kingsbury</h2>
+                              <p>Much-loved storyteller Karen Kingsbury’s Baxter Family books have captured the hearts of millions who have come to think of the Baxter family as their own </p>
+                            </div>
+                            <div class="product-price-btn">
+                              <p><span class="shop-item-price">$17.00</span></p>
+                              <button class="btn btn-primary shop-item-button"  type="button">buy now</button>
+                            </div>
+                          </div>
+                      </div>
+        
+  
+        
+                      <div class="shopItem">
+                          <img class="product-img" src="pic/stu1/sell/book11.jpg">
+                          <div class="product-info">
+                            <div class="product-text">
+                              <span class="shop-item-title"> <h1>The Snake and the Spider</h1></span>
+                              <h2>By Karen Kingsbury</h2>
+                              <p>Recounts the disturbing case of Michigan teenagers Jim Boucher and Daryl Barber and brutally murdered while on a Florida dream vacation, and describes the killers who were responsible.  </p>
+                            </div>
+                            <div class="product-price-btn">
+                              <p><span class="shop-item-price">$16.50</span></p>
+                              <button class="btn btn-primary shop-item-button"  type="button">buy now</button>
+                            </div>
+                          </div>
+                      </div>
+
+
+
+
+                      <div class="shopItem">
+                          <img class="product-img" src="pic/stu1/sell/book12.jpg">
+                          <div class="product-info">
+                            <div class="product-text">
+                              <span class="shop-item-title"> <h1>The Lord Of The Ring</h1></span>
+                              <h2>by J.R.R Tolkine</h2>
+                              <p>This is an epic high-fantasy novel. Structurally, the novel is divided internally into six books, two per volume, with several appendices of background material included at the end. </p>
+                            </div>
+                            <div class="product-price-btn">
+                              <p><span class="shop-item-price">$13.00</span></p>
+                              <button class="btn btn-primary shop-item-button"  type="button">buy now</button>
+                            </div>
+                          </div>
+                      </div>
+
+
+                      <div class="shopItem">
+                          <img class="product-img" src="pic/stu1/sell/book13.jpg">
+                          <div class="product-info">
+                            <div class="product-text">
+                              <span class="shop-item-title"> <h1>The Colour Purple</h1></span>
+                              <h2>By Alice Walker</h2>
+                              <p>The Color Purple is a 1982 epistolary novel by American author Alice Walker which won the 1983 Pulitzer Prize for Fiction and the National Book Award for Fiction </p>
+                            </div>
+                            <div class="product-price-btn">
+                              <p><span class="shop-item-price">$14.00</span></p>
+                              <button class="btn btn-primary shop-item-button"  type="button">buy now</button>
+                            </div>
+                          </div>
+                      </div>
+        
+                  </div>
+      
+      
+                  <!-----------------------Shortcut buttons--------------------------------------------------->
+                  <button id="myBtn"><a href="#top"><img src="pic/common_pic/arrow_up.png" 
+                    class="cart_icon" alt="go to cart"></a></a></button>
+                  <button id="myBtn2"><a href="#down"><img src="pic/common_pic/cart.png" 
+                    class="cart_icon" alt="go to cart"></a></button>
+                
+
+                  <!-----------------------Cart Content--------------------------------------------------------->
+                  <div class="wole">
+                    <div id="down">
+                      <section class="container content-section">
+                        <h2 class="section-header">CART</h2>
+                        <div class="cart-row">
+                            <span class="cart-item cart-header cart-column">ITEM</span>
+                            <span class="cart-price cart-header cart-column">PRICE</span>
+                            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+                        </div>
+
+                        <div class="cart-items">
+                
+                        </div>
+                        <div class="cart-total">
+                            <strong class="cart-total-title">Total</strong>
+                            <span class="cart-total-price">$0.00</span>
+                        </div>
+                      <!--<button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>-->  
+                      </section>
+                    </div>
+                   </div>
+
+              </div>   
+
+            
+          </div>  
+  
+          <!-------------------------------------------------------------------------Add Footer---------------------------------------------------------------------------------------->
+
+              <div class="foot">
+                <footer>
+                  <p class="footer_p">
+                    <a class="footer_des email" href="mailto:janith.2019687@iit.ac.lk">janith.2019687@iit.ac.lk</a>
+                    <span class="footer_sep">|</span><a class="footer_des dev" href="AboutPerson1.html">Janith Sandaru</a>
+                  </p>
+                  <span class="footer_sep footer_sep--large">|</span>
+                  <p class="footer_p">
+                    IIT-ID: <span class="footer_des">2019687</span>
+                    <span class="footer_sep">|</span> Westminster-ID: <span class="footer_des">w1789956</span>
+                  </p>
+                </footer>
+
+          <script src="js/common.js"></script>
+
+    </body>
+</html>

@@ -1,0 +1,120 @@
+body {
+		background-image: url('../pic/stu2/img/notebook.jpg');
+}
+.divTwo{
+	
+	float:center;
+	 
+	
+}
+
+.title2{
+			padding-top:10px;
+			font-size:350%;
+			font-family:Cursive;
+			word-spacing:1.5px;
+			text-align:center;
+			margin-bottom:10px;
+			margin-top:10px;
+			font-weight:80;
+			background-color:beige;
+			
+			
+			
+		}
+		
+		
+/*Forms*/
+/*------------------------------------------- */
+
+.content3{
+	margin:30px 40px;	
+}
+
+.container {
+  border-radius: 5px;
+  background-color:#e0e0d1;
+  padding: 20px;
+  color:
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+input[type=email], select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #3d3d29;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color:#adad85;
+}
+
+.column1 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.column2 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* footer */
+
+.topnav {
+  margin-top: 12px;
+
+}
+
+.footer{
+  background-color: #999967;
+  min-height: 65px;
+  margin-top:10px;
+  font-stretch: expanded;
+  letter-spacing: 3px;
+  font-style: bold;
+  font-size: large;
+  line-height: 50px;
+	
+}
+
+.footer-nav{
+  float: center;
+  margin-left: 30%;
+  color: #333842;
+  font-style: bold;
+}
+

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <link rel="icon" href="pic/common_pic/thebookslookfinal.png">
+    <link rel="stylesheet" type="text/css" href="style css/q-mainlayout.css">
+    <link rel="stylesheet" type="text/css" href="style css/qStyle.css">
+
+	
+</head>
+<body>
+
+
+    <ul class="navB">
+        <a href="homepage.html"><img src="pic/common_pic/thebookslookfinal.png" alt="logo" class="logo"></a>
+          <li><a class="active" href="sell.html">SHOP NOW.</a></li>
+          <li><a href="sitemap.html">Site Map</a></li>
+		  <li><a href="quiz.html">Quiz</a></li>
+		  <li><a href="about.html">About Us</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="feedback.html">Feedback-Us</a></li>
+          <li>
+            <div class="dropdown">
+              <button class="dropbtn">Article</button>
+              <div class="dropdown-content">
+                <a href="article1.html">Article 1</a>
+                <a href="article2.html">Article 2</a>
+                <a href="article3.html">Article 3</a>
+                <a href="article4.html">Article 4</a>
+              </div>
+            </div>
+          </li>
+		  <li><a href="homepage.html">Home</a></li>
+        </ul>
+		
+		 
+	
+        <div id="all">
+            <div class="qheader">
+                <h2 class="timer" id="timing"></h2>
+                <h2 class="Score" id="Scoring"></h2>
+                <h2>It's Quiz Time</h2>
+                <h3>A room without books is like a body without soul....</h3>
+                <p class="toph">A book is a amazing information store in the world.</p>
+            </div>
+                <div class="startup">
+                    <input class="st" id="start" type="submit"  value="Start"  onclick="start()">
+                </div>
+                    <div class="Container">
+                        <p class="questions">1.Who is the author of sherlock holmes series?</p>
+                        
+                            <ul>
+                                <input class="ans" type="radio" name="q1" value="1">
+                                <label class="white" id="c_ans1"> Sir Arthur conan Doyle</label>
+                                <br>
+                                <input class="ans" type="radio" name="q1" value="0">
+                                <label>William shakespear</label>
+                                <br>
+                                <input class="ans" type="radio" name="q1" value="0">
+                                <label>James Joyse</label>
+                                <br>
+                                <input class="ans" type="radio" name="q1" value="0">
+                                <label>George Eliot</label>
+                            </ul>
+                         
+                    </div>
+
+                    <div class="Container">
+                        <p class="questions">2.How many novels did Ronald Dahl write? </p>
+                        
+                        <ul>
+                            <input class="ans" type="radio" name="q2" value="0">
+                            <label>10</label>
+                            <br>
+                            <input class="ans" type="radio" name="q2" value="1">
+                            <label class="white" id="c_ans2">19</label>
+                            <br>
+                            <input class="ans" type="radio" name="q2" value="0">
+                            <label>15</label>
+                            <br>
+                            <input class="ans" type="radio" name="q2" value="0">
+                            <label>7</label>
+                        </ul>
+                    </div>
+
+
+                    <div class="Container">
+                        <p class="questions">3.The famous book"The Daughter of the East'is written by? </p>
+
+                        <ul>
+                            <div id="q_center">
+                                <input class="ans" type="radio" name="q3" value="0">
+                                <label>MS Bandaranaike Sirimavo</label>
+                                <br>
+                                <input class="ans" type="radio" name="q3" value="1">
+                                <label class="white" id="c_ans3">Benazir Bhutto</label>
+                                <br>
+                                <input class="ans" type="radio" name="q3" value="0">
+                                <label>Talisma nasreen</label>
+                                <br>
+                                <input class="ans" type="radio" name="q3" value="0">
+                                <label>James Joyse</label>
+                            </div>
+                        </ul>
+                    </div>
+
+                    <div class="Container">
+                        <p class="questions">4.The Celebrated Novel'The Godfarther was authorized by?</p>
+
+                        <ul>
+                            <input class="ans" type="radio" name="q4" value="0">
+                            <label>Johm Milton</label>
+                            <br>
+                            <input class="ans" type="radio" name="q4" value="0">
+                            <label>Victor Hugo</label>
+                            <br>
+                            <input class="ans" type="radio" name="q4" value="1">
+                            <label class="white" id="c_ans4">Mario Puzo</label>
+                            <br>
+                            <input class="ans" type="radio" name="q4" value="0">
+                            <label>Harrold Robbins</label>
+                        </ul>
+                    </div>
+
+                    <div class="Container">
+                        <p class="questions">5.Who is the author of 'Madol Dhuwa'?</p>
+
+                        <ul>
+                            <input class="ans" type="radio" name="q5" value="1">
+                            <label class="white" id="c_ans5" id="white"  >Martin Wickramasinghe</label>
+                            <br>
+                            <input class="ans" type="radio" name="q5" value="0">
+                            <label>Munidasa Kumarathunge</label>
+                            <br>
+                            <input class="ans" type="radio" name="q5" value="0">
+                            <label >Sibil Weththasinghe</label>
+                            <br>
+                            <input class="ans" type="radio" name="q5" value="0">
+                            <label>Upul Sannasgala</label>
+                        </ul>
+                    </div>
+
+                    <div class="Container">
+                        <p class="questions">6.THe Famous Children Novel'heidi'written by? </p>
+
+                        <ul>
+                            <input class="ans" type="radio" name="q6" value="0">
+                            <label>George Eliot<label>
+                            <br>
+                            <input class="ans" type="radio" name="q6" value="1">
+                            <label class="white" id="c_ans6">Johanna spyri</label>
+                            <br>
+                            <input class="ans" type="radio" name="q6" value="0">
+                            <label>William Shakespeare</label>
+                            <br>
+                            <input class="ans" type="radio" name="q6" value="0">
+                            <label>None of above</label>
+                        </ul>
+                    </div>
+
+                    <div class="Container">
+                        <p class="questions">7.what book was wrote by William shakepear?</p>
+
+                        <ul>
+                            <input class="ans" type="radio" name="q7" value="0">
+                            <label>ulysses</label>
+                            <br>
+                            <input class="ans" type="radio" name="q7" value="0">
+                            <label >Don Quixote</label>
+                            <br>
+                            <input class="ans" type="radio" name="q7" value="0">
+                            <label>The Great Gatsby</label>
+                            <br>
+                            <input class="ans" type="radio" name="q7" value="1">
+                            <label class="white" id="c_ans7">Hamlet</label>
+                        </ul>
+                    </div>
+
+                    <div class="Container">
+                        <p class="questions">8.who is the author of world famous book'War and Peace?</p>
+
+                        <ul>
+                            <input class="ans" type="radio" name="q8" value="0">
+                            <label>Hermen Helville</label>
+                            <br>
+                            <input class="ans" type="radio" name="q8" value="0">
+                            <label >Mercel Proust</label>
+                            <br>
+                            <input class="ans" type="radio" name="q8" value="1">
+                            <label class="white" id="c_ans8">Leo Tolstoy</label>
+                            <br>
+                            <input class="ans" type="radio" name="q8" value="0">
+                            <label >George Eliot</label>
+                        </ul>
+                    </div>
+
+                    <div class="Container">
+                        <p class="questions">9.who is the author of world famous book'Lord Of Rings'?</p>
+
+                        <ul>
+                            <input class="ans" type="radio" name="q9" value="0">
+                            <label>William shakepear</label>
+                            <br>
+                            <input class="ans" type="radio" name="q9" value="1">
+                            <label class="white" id="c_ans9">J.R.R Tolkein</label>
+                            <br>
+                            <input class="ans" type="radio" name="q9" value="0">
+                            <label>Leo Tolstoy</label>
+                            <br>
+                            <input class="ans" type="radio" name="q9" value="0">
+                            <label>Thomas Mann</label>
+                        </ul>
+                    </div>
+
+                    <div class="Container">
+                        <p class="questions">10.Which british prime minister was awarded the nobel prize in literature?</p>
+
+                        <ul>
+                            <input class="ans" type="radio" name="q10" value="1">
+                            <label class="white" id="c_ans10">Sir Winston Chirchill</label>
+                            <br>
+                            <input class="ans" type="radio" name="q10" value="0">
+                            <label >Boris Jhonson</label>
+                            <br>
+                            <input class="ans" type="radio" name="q10" value="0">
+                            <label>David Cameron</label>
+                            <br>
+                            <input class="ans" type="radio" name="q10" value="0">
+                            <label>Theresa May</label>
+                        </ul>
+                    </div>
+					
+
+                <div class="submitter">
+				   <button id="myBtn"><a href="#top"><img src="pic/common_pic/arrow_up.png" 
+                    class="cart_icon" alt="go to cart"></a></a></button>
+                    <input class="rst" id="resetButton" onclick="resetq()" type="submit" value="Reset"/>
+                    <input class="Sub" id="submitButton" onClick="submitq()"
+                        type="submit" value="Submit"/>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p class="ft1">
+                <a class="ft3 email" href="Lasaru.2019719@iit.ac.lk">Lasaru.2019719@iit.ac.lk</a>
+                <span class="ft2">|</span><a class="ft3" href="AboutPerson3.html">Lasaru Nilhan</a>
+            </p>
+            <span class="ft2 ft2_large">|</span>
+            <p class="ft1">
+                IIT-ID: <span class="ft3">2019719</span>
+                <span class="ft2">|</span> Westminster-ID: <span class="ft3">w1790173</span>
+            </p>
+        </footer>
+<script src="js/qmain.js"></script>
+<script type="text/javascript" language="JavaScript" src="js/Quiz.js"></script>
+</body>
+</html>

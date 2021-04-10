@@ -1,0 +1,56 @@
+
+
+/*-----------------------------------------*/
+a:hover {
+  background-color: yellow;
+}
+
+svg{
+    margin: 14px 0 0 180px;
+    background-color:lightblue;
+}
+rect{
+    cursor: pointer;
+}
+rect:hover{
+    transform: scale(1.0045);
+    color: white;
+
+}
+html{
+    font-family: "IBM plex",sans-serif;
+}
+
+#homeBox{
+    stroke-width:4px;
+    stroke: #ff0a1b;
+    background-color:red;
+
+}
+.home:hover{
+color:#FF0000;
+
+}
+.txt{
+    font-family: "IBM plex", sans-serif;
+    font-size: 25px;
+}
+text{
+    cursor: pointer;
+}
+.mainBoxes{
+    stroke: #195E91;
+    stroke-width: 4px;
+}
+.subBoxes{
+    stroke: #803273;
+    stroke-width: 4px;
+}
+.mainBoxesText{
+    text-decoration: underline #195E91;
+}
+#title{
+    font-size: 30px;
+    font-family: "IBM plex", sans-serif;
+}
+
